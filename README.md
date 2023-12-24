@@ -12,4 +12,6 @@ I wanted to get introduced to basic concepts. Here is a list of things you can f
 
 I also packaged this application using node.js and electron. You can find the `pacakge.json` file in this repository.
 
+If you would like to know how I packaged this code in greater detail, please go to [this page](https://bastiengolomer.github.io/2023/12/23/Packaging-using-electron.html). I give the commands to install electron (assuming you already have node.js installed and ready to go on your machine) and details on packaging the app.
+
 A first step towards more software engineering, one must start somewhere! 
