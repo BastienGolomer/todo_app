@@ -5,27 +5,29 @@
     </head>
     <body>
         <header class="default-header">Todo App</header>
-        <div style="font-size: 25px; padding: 5px; color: darkslategrey; font-family: Arial, Helvetica, sans-serif;"> How to use:</div>
-        <ul>
-            <li class="instruction"> Enter your next task in the bar below.</li>
-            <li class="instruction"> To delete the whole task list, press "alt+j".</li>
-         </div>
-        </ul>
-           
+        <div class="wrapper">
+            <div style="font-size: 25px; padding: 5px; margin:10px; margin-left: 20px; color: darkslategrey; font-family: Arial, Helvetica, sans-serif;"> How to use:</div>
+            <ul>
+                <li class="instruction"> Enter your next task in the bar below.</li>
+                <li class="instruction"> To delete the whole task list, press "alt+j".</li>
+            </ul>
+            
+            <form id="todoForm" style="margin: 20px; text-align: center;">
+                <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Next task"
+                style="font-size: 30px"
+                autocomplete="off"
+                /><br /><br />
+                <!-- <input type="submit" value="Submit" style="font-size: 20px" /> -->
+            </form>
+            <ul id="taskList"></ul>
+            <div class="push"></div>
+
         </div>
-        <form id="todoForm" style="margin: 20px; text-align: center;">
-            <input
-            type="text"
-            id="fname"
-            name="fname"
-            placeholder="Next task"
-            style="font-size: 30px"
-            autocomplete="off"
-            /><br /><br />
-            <!-- <input type="submit" value="Submit" style="font-size: 20px" /> -->
-        </form>
-        </div>
-        <ul id="taskList"></ul>
+        <footer> Created by Bastien Golomer</footer>
   </body>
 
    <script src="scripts.js"></script>
